@@ -29,13 +29,13 @@ We introduce an iterative self-checking approach that significantly improves the
 
 ### Installation
 ```bash
-git clone 
-cd mathverify
+git clone https://github.com/jcguo123/Iterative-Self-checking-for-LLM-Math-Process-Validation.git
+cd Iterative-Self-checking-for-LLM-Math-Process-Validation
 pip install -r requirements.txt 
 ```
 
 ### Usage
-For a data in jsonl file. First, run the following code to generated the results for first verification. 
+For data in a JSON file. First, run the following code to generate the results for the first verification. 
 ```bash
 python ./code/generation/initial_verification.py --model_path <MODEL_PATH> --dataset_path <DATASET_PATH> --output_dic <OUTPUT_DIR>
 ```
@@ -49,7 +49,9 @@ To run our evaluation scripts, run:
 python ./code/evaluation/evaluation.py --model <MODEL_NAME> --output_dic <OUTPUT_DIRECTORY>
 ```
 ### Performance
-To evaluate the error detection capabilities, we choose three annotated mathematical step datasets, PRM800K, ProcessBench, and MathCheck. These benchmarks contain problems from GSM8K, MATH dataset, OlympiadBench and Omni-MATH.
+To evaluate the error detection capabilities, we choose three annotated mathematical step datasets, PRM800K, ProcessBench, and MathCheck. These benchmarks contain problems from GSM8K, MATH dataset, OlympiadBench, and Omni-MATH.
+<div align="center">
+
 | Model |  Mathcheck\* | ProcessBench | PRM800K |
 | :---: | :---: | :---: | :---: |
 | GPT-4o mini | 78.8 | 52.9 | 34.0 |
@@ -67,3 +69,4 @@ To evaluate the error detection capabilities, we choose three annotated mathemat
 | Deepseek-R1-Qwen-14B | 91.1 | 71.6 | 54.6 |
 | + Iterative Self-checking | **94.8** | **82.2** | **63.2** |
 | Deepseek-R1 | 93.5 | 83.3 | 62.9 |
+</div>
