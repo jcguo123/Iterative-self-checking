@@ -1,4 +1,4 @@
-'''<div align="center">
+<div align="center">
 
 # Iterative Self-checking for LLM Math Process Validation
 
