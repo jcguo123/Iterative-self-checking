@@ -21,7 +21,7 @@
 ## Overview
 ![](figure/1.png)
 
-We introduce an iterative self-checking approach that significantly improves the verification accuracy of mathematical solutions for language models. Our method achieves remarkable performance with Deepseek R1 distilled models, enabling 7B/8B models to surpass all 70B/72B models and GPT-4o on ProcessBench. For example, with DeepSeek-R1-Distill-Qwen-7B, our method achieves **71.3%** accuracy on ProcessBench, while with DeepSeek-R1-Distill-Llama-8B it achieves **67.2%** accuracy. In theIterative Self-checking method, each LLM iteratively checks its own identifications, and the final output is only produced when multiple LLMs demonstrate consistent self-checking over time.
+We introduce an iterative self-checking approach that significantly improves the verification accuracy of mathematical solutions for language models. Our method achieves remarkable performance with Deepseek R1 distilled models, enabling 7B/8B models to surpass all 70B/72B models and GPT-4o on ProcessBench. For example, with DeepSeek-R1-Distill-Qwen-7B, our method achieves **71.3%** accuracy on ProcessBench, while with DeepSeek-R1-Distill-Llama-8B it achieves **67.2%** accuracy. In the Iterative Self-checking method, each LLM iteratively checks its own identifications, and the final output is only produced when multiple LLMs demonstrate consistent self-checking over time.
 
 ![](figure/2.png)
 
