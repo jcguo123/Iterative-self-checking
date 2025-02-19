@@ -3,7 +3,7 @@
 # Iterative Self-checking for LLM Math Process Validation
 
 <div>
-🔍 Iterative Self-checking for LLM Math Process Validation 🎯
+🔍 A New Method for Math LLM Verification 🎯
 </div>
 </div>
 <div>
