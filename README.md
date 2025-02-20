@@ -29,7 +29,7 @@ We introduce an iterative self-checking approach that significantly improves the
 
 ### Installation
 ```bash
-git clone https://github.com/jcguo123/Iterative-Self-checking-for-LLM-Math-Process-Validation.git
+git clone https://github.com/jcguo123/Iterative-self-checking.git
 cd Iterative-self-checking
 pip install -r requirements.txt 
 ```
