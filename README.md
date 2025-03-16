@@ -1,6 +1,6 @@
 <div align="center">
 
-# Iterative Self-checking for LLM Math Process Validation
+# Temporal Consistency for LLM Reasoning Process Error Identification
 
 <div>
 🔍 A New Method for Math LLM Verification 🎯
